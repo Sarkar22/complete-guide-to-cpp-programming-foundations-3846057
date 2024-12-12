@@ -1,6 +1,6 @@
 // Complete Guide to C++ Programming Foundations
 // Exercise 02_05
-// Using Variables, by Eduardo Corpeño 
+// Using Variables, by Emon Sarkar 
 
 #include <iostream>
 
