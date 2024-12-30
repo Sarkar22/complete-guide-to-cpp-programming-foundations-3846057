@@ -14,13 +14,15 @@ enum class menu_section {background, music, sound, cotrols, texture};
 
 int main(){
     int sound = 8;
+    
     // int asset_value; for this we need to >> asset_value = (int) sound;
-    // But this solution appropriate
-    // asset_value needs to be asset_type variable
+    // But the solution appropriate is more appropriate where
+    // asset_value is declared as asset_type variable
     asset_type asset_value;
     asset_value = asset_type::sound;
 
     std::cout << "asset_value = " << (int) asset_value << std::endl;
+    std::cout<< "Local Variable Sound's Value: "  << sound << std::endl;
 
     std::cout << std::endl << std::endl;
     return 0;
